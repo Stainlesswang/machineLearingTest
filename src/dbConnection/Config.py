@@ -2,7 +2,7 @@
 '''
 Created on 2018年7月10日
 配置类思密达
-@author: chinaso
+@author: Allen Wong
 '''
 # 你的数据库配置信息
 DBHOST=""
