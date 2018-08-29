@@ -2,7 +2,7 @@
 '''
 Created on 2018年7月10日
 使用数据库连接池来实现数据库工具类
-@author: chinaso
+@author: Allen Wong
 '''
 from dbConnection import Config
 import importlib

@@ -1,5 +1,7 @@
 '''
-爬取深圳A类票信息
+爬取深圳A类票信息 使用urllib 爬取网站的json数据
+@author: Allen Wong
+
 '''
 from urllib import request
 import json

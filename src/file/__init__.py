@@ -1,3 +1,8 @@
+'''
+Created on 2018年7月10日
+对文件的各种操作
+@author: Allen Wong
+'''
 import os
 #替换文件名
 def replaceFileName(rootDir, oldStr, newStr):

@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+Created on 2018年7月10日
+Spark 单词计数的尝试  后续增加
+@author: Allen Wong
+'''
 from pyspark.conf import SparkConf
 import sys
 from pyspark.context import SparkContext
