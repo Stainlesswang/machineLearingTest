@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
 Created on 2018年7月10日
-Spark 单词计数的尝试  后续增加
+Spark 单词计数的尝试  后续继续学习
 @author: Allen Wong
 '''
 from pyspark.conf import SparkConf
