@@ -1,6 +1,7 @@
-'''
+# coding=utf-8
+"""
 当前为插入明星的操作
-'''
+"""
 from urllib import request
 import json
 import jsonpath
@@ -23,7 +24,7 @@ while var == 1:
     resultstr=json.loads(response.read().decode('UTF-8'))
     len_dat=len(resultstr["data"])
     if len_dat>0:
-        for i in range(0,len_dat):
+        for i in range(0, len_dat):
             values = (resultstr["data"][i]["name"], resultstr["data"][i]["picUrl"])
             if isContainsCompany(resultstr["data"][i]["name"])>0:
                 print("已经有这个名字的明星了. 不在做添加操作!!!!")
